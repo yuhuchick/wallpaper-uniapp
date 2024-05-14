@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/user/user",
+    "pages/classList/classList",
+    "pages/preview/preview",
+    "pages/notice/notice",
+    "pages/search/search"
+  ],
+  "window": {
+    "enablePullDownRefresh": true,
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "yuhu壁纸",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#28b389",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tabBar/home.png",
+        "selectedIconPath": "static/tabBar/home-h.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "分类",
+        "iconPath": "static/tabBar/classify.png",
+        "selectedIconPath": "static/tabBar/classify-h.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/tabBar/user.png",
+        "selectedIconPath": "static/tabBar/user-h.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

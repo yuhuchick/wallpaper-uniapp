@@ -1,0 +1,17 @@
+view ,swiper, swiper-item{
+	box-sizing: border-box;
+}
+
+.pageBg {
+	background: 
+	linear-gradient(to bottom,rgba(0,0,0,0) 0%,#fff 400rpx),
+	linear-gradient(to right,#beecdb 20%, #F4E2DB);
+	min-height: 80vh;
+}
+.topLoading {
+	padding: 30rpx 0;
+}
+//设备底部安全距离
+.safe-area-inset-bottom {
+	height: env(safe-area-inset-bottom);
+}

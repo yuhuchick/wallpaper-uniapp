@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "分类",
+  "enablePullDownRefresh": false,
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "common-nav": "../../components/common-nav/common-nav",
+    "theme-item": "../../components/theme-item/theme-item"
+  }
+}
